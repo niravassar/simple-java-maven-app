@@ -1,10 +1,10 @@
 pipeline {
-    agent any
+    skipStagesAfterUnstable
     options {
         skipStagesAfterUnstable()
     }
     stages {
-        stage('Build') {
+        stage('Build') { sdfasdf
             steps {
                 sh 'mvn -B -DskipTests clean package'
             }
