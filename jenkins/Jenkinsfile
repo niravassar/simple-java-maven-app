@@ -1,5 +1,5 @@
 pipeline {
-    skipStagesAfterUnstable
+    agent any
     options {
         skipStagesAfterUnstable()
     }
