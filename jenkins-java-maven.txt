@@ -8,10 +8,14 @@ https://github.com/jenkins-docs/quickstart-tutorials.git
 - docker compose --profile maven up -d
 - make sure Docker Desktop is running
 - http://localhost:8080/
-- configure git
+- admin/admin
+- configure jenkin build
 - configure the pipeline file
+	- https://github.com/niravassar/simple-java-maven-app.git
+	- jenkins/JenkinsFile
 - docker compose --profile maven down -v --remove-orphans
 
 todo
 ============
 - [] check to see which plugins are in jenkins
+- [] try to see if you can run jenkins build on hrp and check out the code and clean package. 
